@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm a senior CS student at Lehigh University. I run our International Collegiate Programming Competition Team. I worked for Morgan Stanley the summer of 2019, and I'm working for Amazon the summer of 2020.
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+### Some Links
+
+[My Linkedin](https://www.linkedin.com/in/evanhruskar/)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ezh.business@gmail.com](mailto:ezh.business@gmail.com)

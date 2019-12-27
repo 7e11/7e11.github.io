@@ -5,7 +5,21 @@ title: Why does this blog exist?
 
 I've always wanted to start a blog where I go in depth on some CS topics which interest me.
 
-I remeber reading awful medium articles while researching DQN for a reinforcement learning class. My goal is that everything in this blog is well researched and highly polished.
+I remember reading awful medium articles while researching DQN for a reinforcement learning class. My goal is that everything in this blog is well researched and highly polished.
+
+
+This list of topics will be expanded
+
+- Transactional Memory (Maybe)
+- Deep Learning (Unlikely)
+- Obscure language features
+- Projects I'm working on
+  - Coursesite autograder
+  - Coursesite/piazza scraper
+- Interesting things we went over in class
+  - Algorithms: Jon Bently lecture
+  - OS: Some of the weird problems Spear talked about. Look back at notes.
+
 
 {% comment %}
 ![_config.yml]({{ site.baseurl }}/images/config.png)

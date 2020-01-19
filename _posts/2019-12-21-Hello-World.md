@@ -19,6 +19,8 @@ This list of topics will be expanded
 - Interesting things we went over in class
   - Algorithms: Jon Bently lecture
   - OS: Some of the weird problems Spear talked about. Look back at notes.
+- osu! stuff: python based DB reader, mp3 extractor, data vis/analysis?
+  - They have an API also, check that out
 
 
 {% comment %}

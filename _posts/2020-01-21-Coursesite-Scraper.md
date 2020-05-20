@@ -13,7 +13,7 @@ Firstly, a bit about me:
 
 I'm currently a Junior at Lehigh University where I'm studying Computer Science & Engineering. My Fall 2019 Schedule was packed with the hard hitting classes which are to be expected as a Junior in CSE.
 
-![Github markdown tables don't work on Jekyll rip]({{ site.baseurl }}/images/coursesite-scraper/F2019_classes.png)
+![Github markdown tables don't work on Jekyll rip]({{ site.baseurl }}/images/coursesite-scraper/F2019_classes.PNG)
 
 Onto the scraping:
 
@@ -83,7 +83,7 @@ really sure how to express percentages for several different groups well.
 Here is my spring schedule. 
 It's my first time taking a grad class so we'll see how that goes.
 
-![Spring 2020 Classes]({{ site.baseurl }}/images/coursesite-scraper/S2020_classes.png)
+![Spring 2020 Classes]({{ site.baseurl }}/images/coursesite-scraper/S2020_classes.PNG)
 
 
 _Software Verification doesn't have a coursesite to scrape, but Professor Michael Spear

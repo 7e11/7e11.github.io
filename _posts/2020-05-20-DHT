@@ -1,0 +1,45 @@
+---
+layout: post
+title: Creating a distributed hash table (DHT) in Rust
+published: false
+---
+
+I'm an Junior taking a Grad course, etc. etc.
+
+Assignment 1: Distributed Hash Table, 
+- The hashtable itself (concurrency, locks)
+- Random Exponential Backoff
+- Consistent Hashing
+- Azure
+- Learning Rust for the first time
+- strategy: re-creating the tcp connection on every new command
+  - Thread pool (removed in part 2)
+- Performance
+
+Assignment 2: Replicated Hash Table, Multithreaded Client, Script Deployment
+- Switching to persistent TCP sockets. Talk about Async considerations, but ended up using a separate thread for everything
+  - Performance woes on Linux vs Windows
+    - Flamegraphs
+    - Switching to AWS
+    - Stripping everything down and creating a basic example
+    - Rust apparently doesn't buffer its IO, but serde was having strange performance on windows vs linux
+    - Dig into this more, why does this happen in serde???
+- Multiput (3 values, 3 keys)
+  - but mine was slightly more abstract and took a vector of key-value pairs to update.
+- replication strategy: Just put keys on the next server, and then the next, etc.
+- 2 phase commit (required for replication, and for Multiput)
+  - Taking locks out of hash table
+  - Removal of thread pool
+  - Strategy of having every client thread have a separate connection to every server (every server thread).
+    Means we don't need to worry about locking connections, etc.
+- Performance (good looking graphs)
+
+Assignment 3: Recoverable 2PC, Performance Bug Fix, Hashtable bug fix, Bundling Messages
+- Even more performance improvements (For some reason, a function was taking 40ms to complete ???)
+  - I shoulve just written my own serialization from the very beginning. 
+- If I client sends a multiput with two keys which hash to the same server, and the same BUCKET, then there's deadlock.
+  This is fixed through the bundling
+- Bundling: We don't want to send more commands then necessary. Bundle lock requests with eachother, and aborts with eachother.
+  - Previously we would send multiple commits/aborts to the same server if 
+- Making the implementation "theoretically" recoverable. Just logging at all of the correct points. Each thread has it's own logfile.
+- Performance (more good looking graphs), and mention how it's 10x faster than Pt. 2

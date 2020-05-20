@@ -18,13 +18,7 @@ Firstly, a bit about me:
 
 I'm currently a Junior at Lehigh University where I'm studying Computer Science & Engineering. My Fall 2019 Schedule was packed with the hard hitting classes which are to be expected as a Junior in CSE.
 
-| ID       | Name                              |
-|----------|-----------------------------------|
-| POLS-106 | Environmental Values & Ethics     |
-| CSE-337  | Reinforcement Learning            |
-| CSE-216  | Software Engineering              |
-| CSE-303  | Operating System Design           |
-| CSE-340  | Design and Analysis of Algorithms |
+![Github markdown tables don't work on Jekyll rip]({{ site.baseurl }}/images/coursesite-scraper/F2019_classes.png)
 
 Onto the scraping:
 
@@ -94,13 +88,8 @@ really sure how to express percentages for several different groups well.
 Here is my spring schedule. 
 It's my first time taking a grad class so we'll see how that goes.
 
-| ID      | Name                       |
-|---------|----------------------------|
-| CSE-398 | Software Verification      |
-| CSE-403 | Advanced Operating Systems |
-| CSE-280 | Capstone Project I         |
-| CSE-327 | Artificial Intelligence    |
-| CSE-318 | Theory Of Computation      |
+![Spring 2020 Classes]({{ site.baseurl }}/images/coursesite-scraper/S2020_classes.png)
+
 
 _Software Verification doesn't have a coursesite to scrape, but Professor Michael Spear
 was kind enough to email me the participants list._

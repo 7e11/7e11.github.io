@@ -1,12 +1,7 @@
 ---
 layout: post
-title: Which people do I share the most classes with?
-published: true
----
-
----
-layout: post
 title: Which people do I share the most classes with? (2020)
+published: true
 ---
 
 Most students think about this question at the beginning of a semester.
